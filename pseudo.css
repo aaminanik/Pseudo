@@ -1,0 +1,32 @@
+h1:hover{
+    color: darkseagreen;
+    background-color: darkolivegreen;
+}
+h2:hover{
+    color: rgba(255, 0, 0, 0.438);
+    font-size: 40px;
+}
+h3::before{
+    content: 'EEE - ';
+    color: brown;
+    background-color: cadetblue;
+}
+h4::selection{
+    color: chartreuse;
+    background: coral;
+}
+h5:enabled{
+    color: crimson;
+}
+input:focus{
+    color: crimson;
+    font-weight: 700;
+}
+li:nth-child(2n+1){
+    background-color: darkgoldenrod;
+    width: 100px;
+}
+li:nth-child(2n){
+    background-color: darkolivegreen;
+    width: 100px;
+}
